@@ -49,19 +49,4 @@ public class Car {
                 ", color='" + color + '\'' +
                 '}';
     }
-
-    public List<Car> carList() {
-        Car car1 = new Car("BMW",3,"black");
-        Car car2 = new Car("Porsche",5,"red");
-        Car car3 = new Car("Audi",7,"green");
-        Car car4 = new Car("RR",11,"white");
-        Car car5 = new Car("McLaren",9,"blue");
-        List<Car> carList = new ArrayList<>();
-        carList.add(car1);
-        carList.add(car2);
-        carList.add(car3);
-        carList.add(car4);
-        carList.add(car5);
-        return carList;
-    }
 }
